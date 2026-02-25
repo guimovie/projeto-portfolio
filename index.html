@@ -6,22 +6,54 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+    <script src="https://kit.fontawesome.com/52cb730a46.js" crossorigin="anonymous"></script>
 </head>
 <body> 
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Formações</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Tema</a></li>
+                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>                    
     </header>
 
     <main>
+        <section id="ficha">
+            <img src="imagens/self-guilherme.jpg" alt="Guilherme Duarte" class="foto">
+            <h1>Guilherme Duarte</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde culpa, quod cum incidunt ducimus quibusdam autem sed itaque qui animi, facilis quidem reiciendis, cupiditate commodi sit dolore obcaecati minima! Voluptatibus.</p>
+            <div id="social">
+                <a href="https://www.linkedin.com/in/guimovie/" target="_blank" rel="nofollow"><i class="fa-brands fa-square-linkedin"></i></a>
+                <a href="https://www.instagram.com/gui_movie/" target="_blank" rel="nofollow"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/guimovie" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/gui.movie/?locale=pt_BR" target="_blank" rel="nofollow"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </section>
+        <section id="detalhes">
+            <article id="video"> 
+                <h1><i class="fa-solid fa-handshake"></i> Deixe-me apresentar</h1>
+                <div id="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rqvn_c2n9Eg?si=mk-gq4fBadfpaJ8m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article> <!--fim article#video-->
 
+            <article id="skills">
+                <h1><i class="fa-solid fa-brain"></i> Skills</h1>
+            </article> <!--fim article#skills-->
+
+            <article id="formacao">
+                <h1><i class="fa-solid fa-graduation-cap"></i> Formações</h1>
+            </article> <!--fim article#formacao-->
+
+            <article id="projetos">
+                <h1><i class="fa-solid fa-code"></i> Projetos</h1>              
+            </article> <!--fim article#projetos-->
+
+        </section>
     </main>
 
     <footer>
